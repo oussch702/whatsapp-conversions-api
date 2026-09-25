@@ -1,0 +1,47 @@
+{
+  "name": "whatsapp-conversions-api",
+  "version": "1.0.0",
+  "description": "Send Meta Conversions API events for click-to-WhatsApp ads right the first time: plain-language checks before sending, a ledger so no order is counted twice, and explanations for Meta's error codes.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "whatsapp-conversions-api": "bin/whatsapp-conversions-api.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "whatsapp",
+    "conversions-api",
+    "capi",
+    "meta",
+    "click-to-whatsapp",
+    "ctwa",
+    "business-messaging",
+    "facebook-ads",
+    "cod",
+    "ecommerce"
+  ],
+  "homepage": "https://github.com/oussch702/whatsapp-conversions-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oussch702/whatsapp-conversions-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oussch702/whatsapp-conversions-api/issues"
+  },
+  "author": "Oussama Chicha (https://aistrikeforce.com)",
+  "license": "MIT"
+}

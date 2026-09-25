@@ -1,0 +1,11 @@
+node_modules/
+
+# The ledger and event files hold order IDs and ad click IDs.
+capi-ledger.json
+*.jsonl
+
+# Access tokens never belong in the repository.
+.env
+.env.*
+*.token
+*token.txt
