@@ -13,6 +13,10 @@ These events are what give click-to-WhatsApp ads access to purchase optimization
 
 We run an AI sales agent on the official WhatsApp Cloud API for a cash-on-delivery store, and Meta had accepted none of its conversion events. Each fix unlocked the next error. The first was 2804066: Meta refused the event names, Lead included. Then 2804131, until the events went to the WhatsApp dataset with the WhatsApp Business Account ID in place of the Page ID. With that, the event for a real customer order was accepted. Two days later, an OrderCreated event without a currency came back with 2804081. This library checks for all three before anything is sent. The write-up, with what each code means and where each ID comes from: [WhatsApp Conversions API errors 2804066, 2804131 and 2804081: the fix for each](https://aistrikeforce.com/whatsapp-conversions-api).
 
+## See it in under a minute
+
+https://github.com/user-attachments/assets/ba793beb-a940-4833-84b5-e1f3b4a27c83
+
 ## Quick start
 
 Check an event without sending it:
